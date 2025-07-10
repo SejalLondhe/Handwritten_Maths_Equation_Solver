@@ -12,7 +12,7 @@ labels ={0: '(', 1: ')', 2: '0', 3: '1', 4: '2', 5: '3', 6: '4', 7: '5', 8: '6',
 cnn_model = load_model("cnn_model.h5")
 
 # Configure Gemini
-GEMINI_API_KEY = "AIzaSyAMlKDfIRupFqX6bQH3TEcQElwOHw90vE8"
+GEMINI_API_KEY = "API_key"
 genai.configure(api_key=GEMINI_API_KEY)
 gemini_model = genai.GenerativeModel("models/gemini-1.5-flash")
 
