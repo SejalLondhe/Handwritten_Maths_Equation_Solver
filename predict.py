@@ -16,7 +16,7 @@ labels = {
 model = load_model('cnn_model.h5')
 
 # Configure Gemini API
-GEMINI_API_KEY = "AIzaSyAMlKDfIRupFqX6bQH3TEcQElwOHw90vE8"
+GEMINI_API_KEY = "Api_key"
 genai.configure(api_key=GEMINI_API_KEY)
 gemini_model = genai.GenerativeModel("models/gemini-1.5-flash")
 
